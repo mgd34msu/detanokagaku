@@ -12,7 +12,7 @@ FizzBuzz is an 8 character string (w/ indices 0 through 7)
 The function above runs the classic 'FizzBuzz' test up to a given value, set by the argument.
 The result is a list where each element is either a slice of the FizzBuzz string or the current value of an iterator
 The function slices the FizzBuzz string in the following way:
-    Any modulo operation on a number, x, where [ (x**(n-1))%n ], and where n is prime and n <= 17, will return a 1 or 0.
+    Any modulo operation on a number, x, where [ (x**(n-1))%n ], and where n is prime, will return a 1 or 0.
     As 3 is prime, the current value of the iterator can be squared and evaluated in the mod expression for a 1 or 0.
     The 1 or 0 is then multiplied by 4 to give a 0 or 4 result, allowing the left side of the string slice to be 0 or 4.
     The number 5 is also prime, so the same x**(n-1)%n = 1 or 0 remains true for the right half of the string slice.
